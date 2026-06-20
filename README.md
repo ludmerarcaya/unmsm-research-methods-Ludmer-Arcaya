@@ -18,9 +18,6 @@ The project follows the principles of:
 
 ## Research Question
 
-[Replace with your final research question]
-
-Example:
 
 > How can Bayesian Artificial Intelligence models improve decision-making under uncertainty in citizen insecurity scenarios in Lima Metropolitana?
 
