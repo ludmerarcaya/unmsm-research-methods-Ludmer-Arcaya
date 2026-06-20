@@ -1,0 +1,39 @@
+services:
+  workbench:
+    build: .
+    container_name: workbench
+
+    volumes:
+      - ./:/project
+
+    working_dir: /project
+
+    ports:
+      - "8889:8889"
+
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8889
+      --no-browser
+      --allow-root
+      --IdentityProvider.token=''
+      --ServerApp.password=''
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.19.0
+
+    container_name: mlflow
+
+    ports:
+      - "5000:5000"
+
+    volumes:
+      - ./mlruns:/mlruns
+
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri file:/mlruns
+      --default-artifact-root file:/mlruns
