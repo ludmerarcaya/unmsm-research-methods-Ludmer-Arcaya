@@ -19,12 +19,29 @@ Following the framework presented in Session 4, four categories of research gaps
 
 ## Gap Analysis Table
 
+
+
+| Research Dimension | Current State of Knowledge | Identified Gap | Key Reference (APA 7th) |
+|-------------------|----------------------------|----------------|-------------------------|
+| Crime Prediction | Machine Learning and Deep Learning models have significantly improved crime forecasting and urban crime analytics. | Most models focus on predictive accuracy and provide limited uncertainty quantification. | Rolón, E., Méndez, J. G., & Pichardo, R. (2026). *A modular spatial–temporal approach for territorial segmentation and short-term crime prediction*. AppliedMath, 6(5), 64. |
+| Bayesian AI | Bayesian methods enable probabilistic predictions and uncertainty estimation, increasing model reliability and transparency. | Limited application of Bayesian AI in citizen insecurity management and crime prediction. | Miao, H., Shen, J., Cao, J., Xia, J., & Wang, S. (2023). *MBA-STNet: Bayes-enhanced discriminative multi-task learning for flow prediction*. IEEE Transactions on Knowledge and Data Engineering, 35(11), 11215–11229. |
+| Generative AI | Generative AI can simulate future scenarios and support decision-making through synthetic data generation. | Few studies explore Generative AI for public safety planning and crime scenario simulation. | Roy, S., Das, S., Deb, M., Chowdhury, S. R., & Mani, S. (2026). *Data-driven cops management: Crime classification and skill matching with clustering and generative AI*. SN Computer Science. |
+| Explainable and Trustworthy AI | Explainability and uncertainty estimation are increasingly recognized as critical requirements in AI systems. | Crime prediction systems often lack robust uncertainty-aware frameworks. | Ekmekci, C., & Cetin, M. (2026). *Conformalized generative Bayesian imaging: An uncertainty quantification framework for computational imaging*. IEEE Transactions on Computational Imaging. |
+| Ethical and Fair AI | Fairness and transparency are necessary to avoid discriminatory outcomes in predictive policing systems. | Algorithmic bias remains a significant challenge in crime prediction applications. | Fan, T., Wu, F., & Hu, X. (2026). *A study of fairness issues in predictive algorithms: Example of bias in crime prediction software*. International Journal of Law and Psychiatry, 102255. |
+| Citizen Insecurity in Latin America | Most AI-based crime prediction research is conducted in North America, Europe, and Asia. | There is limited research integrating Bayesian AI and Generative AI for citizen insecurity management in Latin America. | Mohamad Noor, N. M., Ab Hamid, S. H., Mohemad, R., Abdul Jalil, M. M., & Hitam, M. S. (2015). *A review on a classification framework for supporting decision making in crime prevention*. Journal of Artificial Intelligence, 8(1), 17–34. |
+| Proposed Research Contribution | Bayesian Deep Learning provides uncertainty-aware predictions, while Generative AI supports scenario generation and simulation. | No identified studies combine both approaches for citizen insecurity prediction and simulation in Lima Metropolitana. | Synthesized from Miao et al. (2023), Roy et al. (2026), Fan et al. (2026), and Rolón et al. (2026). |
+| Data Sources | Public demographic and crime datasets enable reproducible research in urban security analytics. | Limited integration of census and crime datasets for advanced AI-driven citizen insecurity modeling. | Instituto Nacional de Estadística e Informática (INEI) and Open Crime Data repositories. |
+
+### Summary
+
 | Gap Type | Evidence from Literature | Identified Gap | Opportunity for Thesis |
 |-----------|-------------------------|----------------|------------------------|
 | Knowledge Gap | Existing studies focus separately on Bayesian AI or Generative AI. | Limited research integrates both approaches for citizen insecurity prediction. | Develop an integrated Bayesian Generative AI framework. |
 | Methodological Gap | Most crime prediction studies rely on deterministic machine learning models. | Limited use of Bayesian Deep Learning for uncertainty-aware crime prediction. | Apply Bayesian Deep Learning to quantify predictive uncertainty. |
 | Contextual Gap | Most studies originate from North America, Europe, or China. | Limited evidence from Peru and Latin America. | Validate the framework using Lima Metropolitana datasets. |
 | Theoretical Gap | Existing theories focus on prediction accuracy rather than uncertainty-aware decision-making. | Lack of frameworks connecting prediction, uncertainty, and simulation. | Propose a decision-support framework based on predictive uncertainty. |
+
+
 
 ---
 
