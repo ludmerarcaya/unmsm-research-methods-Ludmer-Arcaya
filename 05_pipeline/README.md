@@ -13,7 +13,7 @@ data/citizen_security_lima_1000.csv is tracked with DVC. Pointer file: data/citi
 3. python src/train.py --seed 42
 
 ## Expected output
-seed=42  accuracy=0.21
+seed=42  accuracy=0.9613
 
 ## Environment
 Python 3.11; exact packages in requirements.txt; see Dockerfile.

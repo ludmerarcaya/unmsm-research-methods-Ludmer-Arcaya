@@ -34,28 +34,46 @@ May and June 2026
 
 ### Search String
 
+Scopus 
+
 ```text
-(
-"Bayesian Deep Learning"
-OR "Bayesian Neural Network"
-OR "Probabilistic Deep Learning"
-)
-AND
-(
-"Crime Prediction"
-OR "Crime Forecasting"
-OR "Public Safety"
-OR "Citizen Security"
-)
-AND
-(
-"Generative AI"
-OR "Generative Models"
-OR "Scenario Simulation"
-)
+
+TITLE-ABS-KEY ( ( "Bayesian Deep Learning" OR "Bayesian Neural Network" OR "Probabilistic Deep Learning" ) AND ( "Crime Prediction" OR "Crime Forecasting" OR "Public Safety" OR "Citizen Security" ) AND ( "Generative AI" OR "Generative Models" OR "Scenario Simulation" ) )
+
+*Scopus - 0 results*
+
+
+
+
 ```
 
+
+
+```text
+
+
+TITLE-ABS-KEY ( ( "Bayesian Deep Learning" OR "Bayesian Neural Network" OR "Probabilistic Deep Learning" ) )
+*4,371 documents found*
+
+
+TITLE-ABS-KEY ( ( "Bayesian Deep Learning" OR "Bayesian Neural Network" OR "Probabilistic Deep Learning" ) AND ( "Crime Prediction" OR "Crime Forecasting" OR "Public Safety" OR "Citizen Security" ) )
+
+*2 documents found*
+
+
+TITLE-ABS-KEY(( "Bayesian Deep Learning" OR "Bayesian Neural Network" OR "Probabilistic Deep Learning" ) AND ( "Generative AI" OR "Generative Models" OR "Scenario Simulation" ) )
+*59 documents found*
+
+
+
+```
+
+
+
 ---
+
+
+
 
 ## Inclusion Criteria
 
