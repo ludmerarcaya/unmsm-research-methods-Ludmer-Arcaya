@@ -4,7 +4,7 @@
 
 **Bayesian Artificial Intelligence on the Predictive Simulation of Uncertainty in Citizen Insecurity Scenarios in Lima Metropolitana, 2027**
 
-This research proposes the development of an Artificial Intelligence framework based on Bayesian Deep Learning and Generative AI to predict and simulate citizen insecurity scenarios under uncertainty. The study focuses on Lima Metropolitana as a representative urban environment facing increasing public security challenges.
+This research proposes the development of an Artificial Intelligence model based on Bayesian Deep Learning and Generative AI to predict and simulate citizen insecurity scenarios under uncertainty. The study focuses on Lima Metropolitana as a representative urban environment facing increasing public security challenges.
 
 ---
 

@@ -17,3 +17,7 @@ seed=42  accuracy=0.21
 
 ## Environment
 Python 3.11; exact packages in requirements.txt; see Dockerfile.
+
+## Mlflow 
+
+![alt text](image.png)

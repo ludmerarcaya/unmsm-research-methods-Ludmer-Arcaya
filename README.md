@@ -1,4 +1,4 @@
-# UNMSM Research Methods Project – Reproducible Mini-Study
+# UNMSM Research Methods – Ludmer Arcaya
 
 ## Overview
 
