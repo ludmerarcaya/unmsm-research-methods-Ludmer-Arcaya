@@ -18,9 +18,26 @@ This study proposes a Bayesian Artificial Intelligence framework integrating Bay
 
 ## 3. Introduction and Problem Statement
 
-Citizen insecurity has become a critical issue in Lima Metropolitana due to increasing crime rates, social vulnerability, and limitations in current security management systems. Existing approaches are primarily reactive and often lack the capability to anticipate future crime scenarios.
+Citizen security management in Peru faces increasing challenges due to the growing complexity and diversity of security-related incidents, including crime, urban violence, cyber threats, and emerging risks. These incidents generate significant social and economic losses and, in many cases, result in the loss of human lives. During recent months, the Peruvian government has declared states of emergency in Lima and Callao in response to the substantial increase in criminal activities and public insecurity.
 
-Artificial Intelligence offers opportunities to support proactive public security strategies. However, conventional predictive models frequently fail to quantify uncertainty, limiting their usefulness in real-world decision-making. Therefore, there is a need for AI-based approaches capable of both prediction and uncertainty-aware simulation.
+According to the National Institute of Statistics and Informatics (INEI), approximately 80.9% of Peruvians who have been victims of crime do not report these incidents to the authorities, highlighting a significant gap between actual and recorded crime rates. Additionally, the Public Prosecutor's Office has reported numerous victims associated with criminal incidents occurring within the public transportation system, reflecting the severity of the current security situation.
+
+At the same time, encouraging efforts have emerged to promote data transparency and accessibility through open data initiatives provided by institutions such as the National Police of Peru (PNP), INEI, and public security observatories. These data sources offer valuable opportunities for advanced analytics and the development of Artificial Intelligence (AI)-based decision-support systems. Furthermore, the Peruvian government has invested in intelligent surveillance infrastructure, including AI-enabled cameras and integrated monitoring centers, aiming to strengthen crime prevention and response capabilities. However, the effectiveness of these initiatives depends on the availability of advanced analytical tools capable of transforming data into actionable intelligence.
+
+Artificial Intelligence provides computational methods and predictive algorithms capable of processing large-scale heterogeneous datasets, identifying hidden patterns, forecasting future events, and generating actionable recommendations. These capabilities can support public security strategies by anticipating crime trends, identifying high-risk areas, and optimizing resource allocation. Moreover, advanced AI techniques can be used to simulate alternative security scenarios by modeling variations in the key factors influencing criminal activity, thereby supporting strategic planning and policy evaluation.
+
+The development of an intelligent framework capable of predicting and simulating citizen security conditions would enable authorities to evaluate the impact of different intervention strategies, identify critical risk factors, and recommend preventive actions aimed at reducing security incidents. Such capabilities could significantly enhance evidence-based decision-making processes and contribute to the formulation of more effective public security policies.
+
+Despite recent technological advancements, there is currently a lack of comprehensive solutions that integrate predictive analytics, uncertainty modeling, and scenario simulation for citizen security management. Specifically, existing systems do not adequately support:
+
+• Predicting security incidents while explicitly considering uncertainty and associated risk factors.
+
+• Generating simulation scenarios to evaluate preventive policies and intervention strategies before implementation.
+
+• Providing concrete, prioritized, and actionable recommendations for government authorities and security agencies.
+
+These limitations reduce the ability of institutions to anticipate critical events, optimize the allocation of public resources, and proactively mitigate security risks. Consequently, there is a growing need for innovative AI-based frameworks that combine predictive modeling, uncertainty quantification, and scenario generation to support strategic decision-making and strengthen citizen security in Peru and other Latin American countries facing similar challenges.
+
 
 ---
 
