@@ -30,6 +30,17 @@ Recent advances in Artificial Intelligence have demonstrated the effectiveness o
 
 Generative AI has also emerged as a promising technology for scenario simulation, enabling the creation of alternative future conditions that can support strategic planning and risk assessment. However, the integration of Bayesian Deep Learning and Generative AI for citizen insecurity management remains relatively unexplored, particularly in Latin America.
 
+Dataset will be download from INEI (Census) and Crime Open data.
+
+
+### Related Studies
+
+| ID | Authors | Year | Research Problem | Objective | Methodology / Data Sources | Main Findings | Research Gap |
+|----|---------|------|------------------|-----------|----------------------------|---------------|--------------|
+| P1 | Vega-Huerta et al. | 2025 | High levels of citizen insecurity in Lima and the need to anticipate crime hotspots. | To develop a mobile application capable of predicting high-crime areas using Machine Learning techniques. | Historical crime reports and geospatial crime databases. Random Forest and Gradient Boosting algorithms were employed. | Predictive models significantly improved the allocation of security resources and personnel deployment in critical areas. | The study does not quantify predictive uncertainty nor simulate alternative crime scenarios. |
+| P2 | Hernández Caro et al. | 2025 | Limited effectiveness of traditional surveillance systems in responding to criminal activities in real time. | To evaluate the effectiveness of AI-powered video surveillance systems for crime prevention. | Semi-structured interviews with security operators and documentary analysis of police intervention reports. | AI-enhanced surveillance systems improved early detection of suspicious behavior and strengthened police operational capabilities. | Focuses on monitoring and detection rather than predictive modeling and uncertainty estimation. |
+| P3 | Mandalapu et al. | 2023 | Need for more accurate crime prediction models to support governmental decision-making. | To review advances in crime prediction using Deep Learning techniques. | Systematic literature review, bibliometric analysis, and comparative synthesis of scientific publications. | Probabilistic approaches and predictive scenario generation are essential for improving risk management and proactive security policies. | Does not propose an integrated framework combining Bayesian Deep Learning and Generative AI. |
+
 ---
 
 ## 5. Research Questions and Hypotheses
@@ -62,9 +73,6 @@ The research will follow reproducible science practices through Git, DVC, Docker
 
 ## 7. Ethical Considerations
 
-The research involves the use of sensitive public security data and therefore requires careful consideration of privacy, fairness, transparency, and responsible AI practices.
-
-Potential risks include algorithmic bias, misuse of predictive outputs, and unintended social consequences. The study will emphasize ethical AI principles, uncertainty communication, data anonymization when necessary, and transparency regarding model limitations.
 
 ---
 

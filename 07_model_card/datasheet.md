@@ -45,19 +45,14 @@ The dataset contains records related to citizen insecurity events, including:
 
 ## Number of instances
 
-[Specify number of records]
 
-Example:
-
-- 50,000 incident records
+-  incident records
 
 ## Number of features
 
-[Specify total features]
 
-Example:
 
-- 25 predictor variables
+- n predictor variables
 - 1 target variable
 
 ## Target Variable
@@ -83,9 +78,8 @@ Data was obtained from publicly available sources including:
 
 ## Collection period
 
-Example:
 
-January 2020 – December 2024
+ 2024 –  2026
 
 ## Sampling strategy
 
