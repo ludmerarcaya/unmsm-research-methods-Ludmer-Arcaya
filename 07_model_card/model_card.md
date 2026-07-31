@@ -12,7 +12,6 @@ Bayesian Artificial Intelligence Model for Citizen Insecurity Prediction
 
 Bayesian Machine Learning Model
 
-Examples:
 
 - Bayesian Network
 - Bayesian Logistic Regression
@@ -113,7 +112,6 @@ The evaluation dataset consists of holdout observations not used during training
 
 ## Split Strategy
 
-Example:
 
 - Training: 70%
 - Validation: 15%
