@@ -1,4 +1,4 @@
-# Research Protocol v0.1
+# Research Protocol v1.0
 
 ## 1. Title
 
