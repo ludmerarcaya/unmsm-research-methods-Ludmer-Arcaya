@@ -85,26 +85,6 @@ This research adopts a **Design Science Research (DSR)** methodology within a **
 
 The DSR process will be structured according to the following phases: **problem identification and motivation**, **definition of research objectives**, **artifact design and development**, **demonstration**, **evaluation**, and **communication of results**. This approach ensures that the research not only contributes to scientific knowledge but also provides a practical solution to a real-world societal challenge.
 
-To guide the analytical and modeling activities, the research will incorporate principles from the **CRISP-DM (Cross-Industry Standard Process for Data Mining)** framework and the **IBM Data Science Methodology**. The methodological workflow will include:
-
-1. **Business Understanding**: Identification of citizen security challenges, stakeholder requirements, public policy objectives, and key performance indicators related to crime prevention and risk mitigation.
-
-2. **Analytic Approach**: Definition of predictive, probabilistic, and generative modeling strategies suitable for crime forecasting, uncertainty quantification, and scenario generation.
-
-3. **Data Requirements and Data Collection**: Acquisition and integration of heterogeneous datasets, including crime statistics, geospatial information, demographic indicators, socioeconomic variables, public transportation records, and open government security datasets from Lima Metropolitana.
-
-4. **Data Understanding and Exploration**: Exploratory Data Analysis (EDA), data profiling, spatial-temporal analysis, correlation assessment, anomaly detection, and identification of relevant crime-related patterns.
-
-5. **Data Preparation and Feature Engineering**: Data cleansing, transformation, normalization, missing value treatment, spatial-temporal aggregation, feature selection, and construction of predictive variables representing environmental, demographic, and security-related risk factors.
-
-6. **Model Development**: Design and training of Bayesian Deep Learning models to generate probabilistic crime predictions and estimate predictive uncertainty. Generative AI techniques will be employed to simulate alternative crime scenarios and evaluate the potential impact of preventive interventions.
-
-7. **Evaluation and Validation**: Assessment of model performance using predictive metrics such as Accuracy, Precision, Recall, F1-Score, ROC-AUC, calibration measures, and uncertainty quantification metrics. The generated scenarios will be evaluated in collaboration with domain experts and through policy-oriented simulations.
-
-8. **Deployment and Decision Support**: Development of an integrated framework capable of providing crime forecasts, risk assessments, scenario simulations, and prioritized recommendations to support evidence-based decision-making by governmental institutions.
-
-9. **Feedback and Refinement**: Continuous improvement of the artifact through iterative evaluation cycles, incorporating stakeholder feedback and model monitoring mechanisms.
-
 The research will follow **Open Science and Reproducible AI principles**. All experiments, datasets, model versions, and pipelines will be managed using **Git** for version control, **DVC (Data Version Control)** for data lineage and reproducibility, **Docker** for environment standardization, and **MLflow** for experiment tracking, model lifecycle management, and performance monitoring. These practices will ensure transparency, reproducibility, scalability, and scientific rigor throughout the research lifecycle.
 
 ---

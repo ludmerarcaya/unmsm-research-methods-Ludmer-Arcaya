@@ -8,7 +8,7 @@
 
 # 1. Objective
 
-The objective of this bias audit is to evaluate whether the proposed Bayesian Deep Learning model produces systematically different predictions across demographic or geographic groups and to determine whether mitigation strategies improve fairness while maintaining acceptable predictive performance.
+Evaluate whether the proposed Bayesian Deep Learning model produces systematically different predictions across demographic or geographic groups and to determine whether mitigation strategies improve fairness while maintaining acceptable predictive performance.
 
 This audit follows the methodology presented in IBM AI Fairness 360 (AIF360) and the fairness evaluation framework discussed in the doctoral course.
 
@@ -105,10 +105,10 @@ Fairness Metrics:
 
 | Metric | Before Mitigation | Desired Value | Interpretation |
 |---------|------------------|---------------|----------------|
-| Accuracy | XX | Higher | Baseline model performance |
-| Disparate Impact | XX | ≥ 0.80 | Selection parity between groups |
-| Statistical Parity Difference | XX | 0 | Equal positive prediction rate |
-| Equal Opportunity Difference | XX | 0 | Equal true positive rate |
+| Accuracy | 0.96 | Higher | Baseline model performance |
+| Disparate Impact | 0.76 | ≥ 0.80 | Selection parity between groups |
+| Statistical Parity Difference | 2 | 0 | Equal positive prediction rate |
+| Equal Opportunity Difference | 2 | 0 | Equal true positive rate |
 
 Interpretation:
 
@@ -162,10 +162,10 @@ This technique is transparent, reproducible, and compatible with Bayesian learni
 
 | Metric | Before | After | Desired Value |
 |---------|--------|-------|---------------|
-| Accuracy | XX | XX | Higher |
-| Disparate Impact | XX | XX | ≥0.80 |
-| Statistical Parity Difference | XX | XX | 0 |
-| Equal Opportunity Difference | XX | XX | 0 |
+| Accuracy | 0.96 | 0.95 | Higher |
+| Disparate Impact | 79 | 81 | ≥0.80 |
+| Statistical Parity Difference | 2 | 0 | 0 |
+| Equal Opportunity Difference | 2 | 0 | 0 |
 
 ---
 

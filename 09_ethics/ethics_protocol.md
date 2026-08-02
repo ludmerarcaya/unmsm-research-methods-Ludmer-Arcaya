@@ -36,7 +36,6 @@ Primary data sources include:
 
 - National Survey of Strategic Programs (ENAPRES – INEI)
 - National Police Information System (SISPOL)
-- National Population and Housing Census (INEI)
 - Open Government Data Portal (datosabiertos.gob.pe)
 
 The datasets contain aggregated demographic, socioeconomic, geographic, victimization, perception of insecurity, and police incident information.
@@ -202,7 +201,7 @@ To minimize this risk:
 This research follows:
 
 - Belmont Report (Respect for Persons, Beneficence, Justice)
-- Menlo Report
+- Menlo Report (This report proposes a framework for ethical guidelines for computer and information se- curity research)
 - CARE Principles for Responsible Data Governance
 - Peru Law No. 29733 (Personal Data Protection)
 - Peru Law No. 31814 (Artificial Intelligence Law)
